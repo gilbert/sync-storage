@@ -1,6 +1,6 @@
 import SyncStorage from '../index';
 
-jest.mock('@react-native-community/async-storage');
+jest.mock('@react-native-async-storage/async-storage');
 
 test("Can init with a list of keys", () => {
   // expect.assertions(1);
